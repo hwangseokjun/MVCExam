@@ -23,19 +23,28 @@ namespace MVCExample
         public string Modifier { get; set; }
         public string ModifiedDate { get; set; }
 
-        public Employee(EmployeeDto dto) 
+        public Employee()
         {
-            this.EmployeeId = dto.EmployeeId;
-            this.Name = dto.Name;
-            this.Department = dto.Department;
-            this.Gender = dto.Gender;
-            this.Rank = dto.Rank;
-            this.Duty = dto.Duty;
-            this.Remarks = dto.Remarks;
-            this.Creator = dto.Writer;
-            this.CreatedDate = DateTime.Now.ToString();
-            this.Modifier = null;
-            this.ModifiedDate = null;
+
+        }
+
+        public static Employee CreateFrom(EmployeeDto dto) 
+        {
+            Employee employee = new Employee();
+
+            employee.EmployeeId = dto.EmployeeId;
+            employee.Name = dto.Name;
+            employee.Department = dto.Department;
+            employee.Gender = dto.Gender;
+            employee.Rank = dto.Rank;
+            employee.Duty = dto.Duty;
+            employee.Remarks = dto.Remarks;
+            employee.Creator = dto.Writer;
+            employee.CreatedDate = DateTime.Now.ToString();
+            employee.Modifier = null;
+            employee.ModifiedDate = null;
+
+            return employee;
         }
 
         public void Save(Employee employee) 

@@ -19,22 +19,15 @@ namespace MVCExample
         public string StartDate { get; set; }
         public string Writer { get; set; }
 
-        public EmployeeDto(string empId, string name, string dpt, string gender, string rank, string duty, string remarks, string startDate, string writer)
-        {
-            this.EmployeeId = empId;
-            this.Name = name;
-            this.Department = dpt;
-            this.Gender = gender;
-            this.Rank = rank;
-            this.Duty = duty;
-            this.Remarks = remarks;
-            this.StartDate = startDate;
-            this.Writer = writer;
-        }
 
         public EmployeeDto() 
         { 
-            this.employeeDto = new EmployeeDto(null, null, null, null, null, null, null, null, null);
+
+        }
+
+        public static EmployeeDto Builder() 
+        {
+            return new EmployeeDto();
         }
 
         public EmployeeDto SetEmployeeId(string value) 
@@ -45,49 +38,49 @@ namespace MVCExample
 
         public EmployeeDto SetName(string value)
         {
-            this.employeeDto.EmployeeId = value;
+            this.employeeDto.Name = value;
             return this;
         }
 
         public EmployeeDto SetDepartment(string value)
         {
-            this.employeeDto.EmployeeId = value;
+            this.employeeDto.Department = value;
             return this;
         }
 
         public EmployeeDto SetGender(string value)
         {
-            this.employeeDto.EmployeeId = value;
+            this.employeeDto.Gender = value;
             return this;
         }
 
         public EmployeeDto SetRank(string value)
         {
-            this.employeeDto.EmployeeId = value;
+            this.employeeDto.Rank = value;
             return this;
         }
 
         public EmployeeDto SetDuty(string value)
         {
-            this.employeeDto.EmployeeId = value;
+            this.employeeDto.Duty = value;
             return this;
         }
 
         public EmployeeDto SetRemarks(string value)
         {
-            this.employeeDto.EmployeeId = value;
+            this.employeeDto.Remarks = value;
             return this;
         }
 
         public EmployeeDto SetStartDate(string value)
         {
-            this.employeeDto.EmployeeId = value;
+            this.employeeDto.StartDate = value;
             return this;
         }
 
         public EmployeeDto SetWriter(string value)
         {
-            this.employeeDto.EmployeeId = value;
+            this.employeeDto.Writer = value;
             return this;
         }
 

@@ -8,10 +8,6 @@ namespace MVCExample
 {
     public interface IView
     {
-        void SetController(Controller controller);
-        void AddEmployee(Employee employee);
-        void RemoveEmployee(string employeeId);
-        void UpdateEmployee(Employee employee);
-        EmployeeDto employeeDto { get; set; }
+
     }
 }

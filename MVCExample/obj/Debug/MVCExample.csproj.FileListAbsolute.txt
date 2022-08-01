@@ -1,0 +1,10 @@
+C:\Users\unbea\source\repos\MVCExample\MVCExample\bin\Debug\MVCExample.exe.config
+C:\Users\unbea\source\repos\MVCExample\MVCExample\bin\Debug\MVCExample.exe
+C:\Users\unbea\source\repos\MVCExample\MVCExample\bin\Debug\MVCExample.pdb
+C:\Users\unbea\source\repos\MVCExample\MVCExample\obj\Debug\MVCExample.csproj.AssemblyReference.cache
+C:\Users\unbea\source\repos\MVCExample\MVCExample\obj\Debug\MVCExample.MainForm.resources
+C:\Users\unbea\source\repos\MVCExample\MVCExample\obj\Debug\MVCExample.Properties.Resources.resources
+C:\Users\unbea\source\repos\MVCExample\MVCExample\obj\Debug\MVCExample.csproj.GenerateResource.cache
+C:\Users\unbea\source\repos\MVCExample\MVCExample\obj\Debug\MVCExample.csproj.CoreCompileInputs.cache
+C:\Users\unbea\source\repos\MVCExample\MVCExample\obj\Debug\MVCExample.exe
+C:\Users\unbea\source\repos\MVCExample\MVCExample\obj\Debug\MVCExample.pdb
